@@ -1,0 +1,13 @@
+{
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m",
+    "java.project.sourcePaths": [
+        "NT/src/poly/ZooerAniFo",
+        "NT/src/modellTest",
+        "NT/src/interfaceService",
+        "NT/src/innerClass",
+        "NT/src/inherit",
+        "NT/src/exceotion",
+        "NT/src/MultThread",
+        "NT/src/IOL"
+    ]
+}
