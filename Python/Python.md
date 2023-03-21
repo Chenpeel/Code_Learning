@@ -1,4 +1,4 @@
-##  Arrays
+## Arrays
 
 ###### Visit
 
@@ -9,22 +9,15 @@ print(bicycle[-1]
 
 - 结果为"redline"（array = null时 -1 位置越界）
 
-
-
-
 ###### Add
 
 `bicycles.append('suzuki')`
 
 - 在末尾添加一个元素
 
-
 `bicycles.insert(1,'Spe')`
 
 - 插入元素（列表元素从插入开始后移）
-
-
-
 
 ###### Delete
 
@@ -44,22 +37,15 @@ print(del_er)
 
 - 据值删除（只删首值）
 
-
-
-
 ##### sort
 
 `bicycles.sort()`&&`bicycles.sort(reverse = True)`
 
 - 正序&&反序
 
-
 `bicycles.sorted()`&&`bicycles.sorted(reverse = True)`
 
 - 临时排序（不改变原有顺序）
-
-
-
 
 ##### reverse
 
@@ -67,15 +53,11 @@ print(del_er)
 
 - 倒置所有元素，永久改变
 
-
-
-
 ##### length
 
 `len(array)`
 
 - 数组长度
-
 
 ~~~ python
 for bicycle in bicycles:
@@ -84,13 +66,7 @@ for bicycle in bicycles:
 
 - 类似C++中的for-each循环遍历
 
-
 - 而缩进代表for作用块
-
-
-
-
-
 
 ### **range()**
 
@@ -104,8 +80,6 @@ for value in range(1,6):
 print (value)
 ~~~
 
-
-
 **创建数字列表**
 
 将range()作为list()的参数，转换为列表
@@ -116,8 +90,6 @@ numbers = list(range(1,6))
 print(numbers)
 ~~~
 
-
-
 指定步长，打印偶数
 
 ~~~python
@@ -125,8 +97,6 @@ even_numbers = list(range(2,11,2))
 
 print(even_numbers)
 ~~~
-
-
 
 使用range()函数（几乎）能够创建任何数集
 
@@ -151,19 +121,12 @@ print(even_numbers)
 [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
-
-
 列表切片
 
+## str.format()函数
 
-
-
-
-##  str.format()函数
-
-
-
-```python
+``` 
+python
 "{}{}".format("hello" , "world")
 #'hello world'
 "{0}{1}".format("hello" , "world")
@@ -181,8 +144,6 @@ print(even_numbers)
 my_value = AssignValue(6)
 print('value 为: {0.value}'.format(my_value))  # "0" 是可选的
 ```
-
-
 
 | 数字      | 格式                 | 输出      | 描述                   |
 | --------- | -------------------- | --------- | ---------------------- |
@@ -205,3 +166,10 @@ print('value 为: {0.value}'.format(my_value))  # "0" 是可选的
 | 11        | `'{:x}.format(11)'`  | b         | 进制                   |
 | 11        | `'{:#x}.format(11)'` | 0xb       | 进制                   |
 | 11        | `'{:#X}.format(11)'` | 0XB       | 进制                   |
+
+
+
+## sorted(string)函数
+
+
+

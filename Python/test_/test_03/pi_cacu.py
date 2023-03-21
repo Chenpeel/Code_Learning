@@ -2,7 +2,7 @@
 from random import random
 from math import sqrt
 from time import *
-DARTS  = 1000
+DARTS  = 1000000
 hits = 0.0
 process_time()
 for i in range(1,DARTS+1):
