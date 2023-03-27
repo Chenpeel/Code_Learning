@@ -1,4 +1,5 @@
 from turtle import *
+
 def drawSnake_python(radius,angle,length):
     seth(-40)
     for i in range(length):
@@ -32,5 +33,8 @@ circle (40,80/2)
 fd(40)
 circle(16,180)
 fd(40*2/3)
+
+
+clear()
  
 done()   
