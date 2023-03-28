@@ -46,4 +46,44 @@ for (auto elem : vec ){
 ```
 
 
+### Containers
+#### Sequence Containers 序列式容器
+1. array
+
+	`array<long,100> a;`
+
+	`array.data() //数组的起始地址`
+
+2. vector 
+
+	`v.push_back();`
+	`v.emplace_back();`
+
+	 两者底层机制不同，push_back()会先创建元素，再拷贝进v,而emplace_back()直接在v末尾创建元素
+	
+	`auto elem = ::find(v.begin(),v.end(),target)//auto = iterator`
+
+	寻找target
+
+3. deque 			
+
+4. list 			//链表
+
+	
+
+5. forward-list 	//单向链表(内存空间利用率高)
+
+#### Associative Containers 关联式的容器 	(通过key快速地排序、查找)
+1. Set/Multiset
+
+2. Map/Multimap
+
+#### Unordered Containers (May a kind of associative containers)
+1. Unordered Set/Multiset
+
+2. Unordered Map/Multimap
+
+- HashTable Separate Chaining
+
+
 
