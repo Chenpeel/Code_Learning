@@ -2,7 +2,7 @@
 
 ###### Visit
 
-~~~
+~~~python3
 bicycles['trek','cannondale','redline']
 print(bicycle[-1]
 ~~~
@@ -25,8 +25,8 @@ print(bicycle[-1]
 
 - 删除索引值指向元素
 
-~~~python
-del_er = bicycles.pop(0)
+~~~python3
+	del_er = bicycles.pop(0)
 
 print(del_er)
 ~~~
@@ -37,7 +37,7 @@ print(del_er)
 
 - 据值删除（只删首值）
 
-##### sort
+##### sort					
 
 `bicycles.sort()`&&`bicycles.sort(reverse = True)`
 
@@ -59,7 +59,7 @@ print(del_er)
 
 - 数组长度
 
-~~~ python
+~~~ python3
 for bicycle in bicycles:
   print(bicycle)
 ~~~
@@ -74,7 +74,7 @@ for bicycle in bicycles:
 
 - 调用该函数，返回1～5，6表示停止数
 
-~~~python
+~~~python3
 for value in range(1,6):
 
 print (value)
@@ -92,7 +92,7 @@ print(numbers)
 
 指定步长，打印偶数
 
-~~~python
+~~~python3
 even_numbers = list(range(2,11,2))
 
 print(even_numbers)
@@ -112,7 +112,7 @@ print(even_numbers)
 
 上述代码也可写作
 
-```python3
+```python
 >>> squares = [value**2 for value in range(1,11)]
 
 >>> print(squares)
@@ -125,7 +125,7 @@ print(even_numbers)
 
 ## str.format()函数
 
-``` 
+``` python
 python
 "{}{}".format("hello" , "world")
 #'hello world'
