@@ -1,5 +1,4 @@
-
-#   计科21-4陈亚辉  2021304369
+# nine_circle
 
 import turtle
 # 创建画布和画笔
